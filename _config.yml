@@ -1,5 +1,37 @@
-group :jekyll_plugins do
-  gem "jekyll-include-cache"
-end
+
 
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
+# Site settings
+title: EoR CodeX Workshops
+description: A description of your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://nicholebarry.github.io/EoRCodeX" # the base hostname & protocol for your site
+
+# Author settings
+author:
+  name: Nichole Barry
+  avatar: /assets/images/avatar.png
+  bio: "Your bio"
+  location: "Your location"
+  email: your-email@example.com
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/username"
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/username"
+
+# Other settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# Build settings
+markdown: kramdown
+
+# group :jekyll_plugins do
+#   gem "jekyll-include-cache"
+# end
