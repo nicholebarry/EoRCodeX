@@ -1,1 +1,5 @@
+group :jekyll_plugins do
+  gem "jekyll-include-cache"
+end
+
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
