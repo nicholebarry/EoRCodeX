@@ -16,17 +16,11 @@
         stroke-width: 2px;
       }
 
-      .cls-4 {
-        fill: #fff;
-        stroke-width: 0px;
-      }
-
       .cls-3 {
         stroke-width: 4px;
       }
     </style>
   </defs>
-  <path class="cls-4" d="M42.5,0C66,0,85,19,85,42.5s-19,42.5-42.5,42.5S0,66,0,42.5,19,0,42.5,0Z"/>
   <circle class="cls-3" cx="42.5" cy="42.5" r="18.5"/>
   <path class="cls-3" d="M14.2,15.5"/>
   <line class="cls-2" x1="42.5" y1="51.3" x2="42.5" y2="36.9"/>
